@@ -1,13 +1,14 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { removeFromCart, decreaseCount, increaseCount } from '../redux/cartSlice';
+import cartItemImg from '../assets/drawer-img-item.png';
 const CartItem = ({ id, name, price, count }) => {
   const dispatch = useDispatch();
   return (
     <div className="drawer__item">
       <div className="drawer__item-wrap">
         <div className="drawer__item-info">
-          <img src="./img/drawer-img-item.png" alt="drawer" />
+          <img src={cartItemImg} alt="drawer" />
           <h2 className="drawer__item-title">{name}</h2>
         </div>
         <p className="drawer__item-price">{price * count} руб.</p>
