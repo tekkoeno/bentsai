@@ -15,7 +15,7 @@ import Order from './pages/Order';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/bentsai">
       <ScrollToTop />
       <Header />
       <Routes>
