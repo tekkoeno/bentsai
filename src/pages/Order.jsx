@@ -39,7 +39,7 @@ const Order = () => {
     document.body.style.overflowY = 'hidden';
     dispatch(clearCart());
     setTimeout(() => {
-      navigate('/');
+      navigate('/bentsai');
       document.body.style.overflowY = 'visible';
     }, 4500);
   };
