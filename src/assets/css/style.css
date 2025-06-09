@@ -602,7 +602,7 @@ li {
 
 /* Products */
 .products__banner {
-  background-image: url('../img/products-banner.png');
+  background-image: url('https://tekkoeno.github.io/bentsai/img/products-banner.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 162px;
